@@ -7,7 +7,27 @@
 
   body {
     font-family: Arial, Helvetica, sans-serif;
+    color: darkslateblue;
+    background-color: lightcoral;
+    margin:20px 20px;
+      }
+  /* changed the font and added a background color and font color*/
+  /* added a margin */
+
+  h1{
+    text-align: center;
+    color: blueviolet;
+    background-color: pink;
   }
-  /* changed the font */
+  /* centered the heading and changed the color and background color */
+
+  h2 {
+    color: blueviolet;
+    background-color: pink;
+  }
+/* added a color and background to h2 */
+
+}
+  
 
   
