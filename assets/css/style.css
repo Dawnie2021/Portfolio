@@ -21,13 +21,8 @@
   }
   /* centered the heading and changed the color and background color */
 
-  h2 {
-    color: blueviolet;
-    background-color: pink;
-  }
-/* added a color and background to h2 */
-
+#about me + img{
+    magin: 40px;
 }
-  
 
   
