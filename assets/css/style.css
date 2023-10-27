@@ -1,45 +1,46 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  /* added the basic css reset */
-  /* changed the basic css reset */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkslateblue;
-    background-color: lightcoral;
-    
+/* added the basic css reset */
+/* changed the basic css reset */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkslateblue;
+
   /* changed the font and added a background color and font color*/
+  /* took out the background color */
   .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
+    background-color: purple;
+    color: black;
+  }
 
-.header h1 {
+  .header h1 {
     font-size: 48px;
     text-align: center;
-}
-/* centered the h1 */
-}
+  }
 
-.header nav {
+  /* centered the h1 */
+
+  .header nav {
     padding-top: 15px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
+    margin left: 40px;
+  }
 
-}
-/* gave the nav some style and centered it */
+  /* gave the nav some style and centered it */
 
-.header nav ul {
+  .header nav ul {
     list-style-type: none;
-}
+  }
 
-.header nav ul li {
+  .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
-}
+  }
