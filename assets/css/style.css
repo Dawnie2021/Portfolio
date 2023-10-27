@@ -1,24 +1,23 @@
 * {
-    margin: 0;
+    box-sizing: border-box;
     padding: 0;
-    list-style: none;
+    margin: 0;
   }
   /* added the basic css reset */
+  /* changed the basic css reset */
 
   body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslateblue;
     background-color: lightcoral;
-    margin:20px 20px;
-      }
+    
   /* changed the font and added a background color and font color*/
   /* added a margin */
 
-  h1{
-    text-align: center;
-    color: blueviolet;
-    background-color: pink;
-  }
-  /* centered the heading and changed the color and background color */
+  .header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightblue;
+    color: #ffffff;
 
-
+    /* added styling to the header */
