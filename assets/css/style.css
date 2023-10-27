@@ -5,4 +5,9 @@
   }
   /* added the basic css reset */
 
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* changed the font */
+
   
