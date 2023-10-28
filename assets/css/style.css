@@ -34,21 +34,30 @@ body {
     font-size: 40px;
     margin left: 40px;
   }
-/* styled portfolio class items */
+
+  /* styled portfolio class items */
   .portfolio-items {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .portfolio-items article {
     width: calc(50% - 40px);
     margin: 20px;
   }
 
-  .portfolio-items article:first-child  {
+  .portfolio-items article:first-child {
     width: calc(100% - 40px);
   }
 
-  .portfolio-items article:first-child img {
+  .portfolio-items article img {
     width: 100%;
   }
+
+  .portfolio-items article a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 4px solid black;
+  }
+
