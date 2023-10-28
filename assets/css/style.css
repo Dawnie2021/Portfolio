@@ -6,7 +6,24 @@
 
 /* added the basic css reset */
 /* changed the basic css reset */
+ h3 {
+  font-size: 40px;
+  padding: 12px;
+ }
+/* added underline under all the h2s and styled the h3 and h2s */
+ h2 {
+  font-size: 48px;
+  padding: 12px;
+  text-decoration: underline;
+ }
 
+ p {
+  font-size: 30px;
+ }
+
+ul li {
+  font-size: 30px;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: darkslateblue;
@@ -16,12 +33,12 @@ body {
   .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: purple;
+    background-color: orchid;
     color: black;
   }
 
   .header h1 {
-    font-size: 48px;
+    font-size: 54px;
     text-align: center;
   }
 
@@ -60,6 +77,4 @@ body {
     align-items: center;
     border: 4px solid black;
   
- .img me {
-  float: right;
- }
+ 
