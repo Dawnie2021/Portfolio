@@ -35,12 +35,5 @@ body {
     margin left: 40px;
   }
 
-  /* gave the nav some style and centered it */
-
-  .header nav ul {
-    list-style-type: none;
-  }
-
-  .header nav ul li {
-    display: inline-block;
-  }
+  
+  
