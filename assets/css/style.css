@@ -4,9 +4,10 @@
   margin: 0;
 }
 /* changed h2 font family */
+/* added a underline decoration */
 h2 {
   font-size: 50px;
-  text-decoration: underline;
+  text-decoration: dashed underline;
   padding: 12px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
@@ -147,7 +148,8 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-  }
+    font-size: 20px;
+   }
 
   .me {
     display: flex;
@@ -165,5 +167,7 @@ body {
     font-size: 28px;
     color: black;
   }
+
+
 
 }
