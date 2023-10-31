@@ -168,6 +168,7 @@ body {
     font-size: 28px;
     color: black;
   }
+  /* added more media queries */
    .portfolio-work {
     flex-direction: column;
    }
