@@ -40,6 +40,10 @@ body {
   color: darkslateblue;
 }
 
+main {
+  padding: 20px;
+}
+
 /* changed the font and added a background color and font color*/
 /* took out the background color */
 
@@ -76,13 +80,13 @@ body {
 
 .me img {
   /* flex: 1 0 10%; */
-  order: 2;
+  order: 1;
   padding: 10px;
 }
 
 .me p {
   /* flex: 1 0 70%; */
-  order: 1;
+  order: 2;
   padding: 10px;
 }
 
@@ -93,11 +97,11 @@ body {
 .portfolio-work {
   display: flex;
   flex-wrap: wrap;
+  gap: 40px;
 }
 
 .portfolio-work article {
   width: calc(50% - 40px);
-  margin: 20px;
 }
 
 .portfolio-work article:first-child {
@@ -168,12 +172,18 @@ body {
     font-size: 28px;
     color: black;
   }
+
   /* added more media queries */
-   .portfolio-work {
+  .portfolio-work {
     flex-direction: column;
-   }
+  }
 
   .portfolio-work article {
+    width: 100%;
+
+  }
+  /* added a width  */
+  .portfolio-work article:first-of-type {
     width: 100%;
   }
 
