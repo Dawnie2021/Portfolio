@@ -3,14 +3,15 @@
   padding: 0;
   margin: 0;
 }
+
 /* changed h2 font family */
 /* added a underline decoration */
 h2 {
   font-size: 50px;
-  text-decoration: dashed underline;
+  text-decoration: underline;
   padding: 12px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+}
 
 h3 {
   font-size: 24px;
@@ -74,14 +75,13 @@ body {
 }
 
 .me img {
-  flex: 1 0 10%;
-  max-height: 200px;
+  /* flex: 1 0 10%; */
   order: 2;
   padding: 10px;
 }
 
 .me p {
-  flex: 1 0 70%;
+  /* flex: 1 0 70%; */
   order: 1;
   padding: 10px;
 }
@@ -89,25 +89,26 @@ body {
 /* added in code to get my image next to my paragraph */
 
 /* styled portfolio class items */
-.portfolio-items {
+/* changed class name  */
+.portfolio-work {
   display: flex;
   flex-wrap: wrap;
 }
 
-.portfolio-items article {
+.portfolio-work article {
   width: calc(50% - 40px);
   margin: 20px;
 }
 
-.portfolio-items article:first-child {
+.portfolio-work article:first-child {
   width: calc(100% - 40px);
 }
 
-.portfolio-items article img {
+.portfolio-work article img {
   width: 100%;
 }
 
-.portfolio-items article a {
+.portfolio-work article a {
   display: flex;
   width: 100%;
   align-items: center;
@@ -149,7 +150,7 @@ body {
     margin: 0;
     width: 100%;
     font-size: 20px;
-   }
+  }
 
   .me {
     display: flex;
@@ -167,7 +168,13 @@ body {
     font-size: 28px;
     color: black;
   }
+   .portfolio-work {
+    flex-direction: column;
+   }
 
+  .portfolio-work article {
+    width: 100%;
+  }
 
 
 }
