@@ -7,4 +7,5 @@ This is my personal portfolio website, designed to showcase my work and skills a
 ![Photo of my website](assets/images/Portfolio.png)
 
 ## Link to my deployed site 
-![Alt text](<assets/images/Portfolio webpage.png>)
+https://github.com/Dawnie2021/Portfolio
+
