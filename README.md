@@ -8,5 +8,6 @@ This is my personal portfolio website, designed to showcase my work and skills a
 
 
 ## Link to my deployed site 
-https://github.com/Dawnie2021/Portfolio
+https://dawnie2021.github.io/Portfolio/
+
 
