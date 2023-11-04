@@ -188,6 +188,10 @@ main {
   .portfolio-work article:first-of-type {
     width: 100%;
   }
+/* made the h3 font-size smaller */
+  h3 {
+    font-size: 17px;
+  }
 
 
 }
